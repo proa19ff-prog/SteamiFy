@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "metadata": {
+    "id": "comm-fluent-win11",
+    "name": "Fluent for Steam (Windows 11)",
+    "author": "Fluent Team",
+    "version": "1.2.0",
+    "createdAt": "2026-11-17T00:00:00Z",
+    "description": "Оригинальный дизайн Windows 11 Fluent с эффектом полупрозрачности Mica"
+  },
+  "colors": {
+    "accent": "#0078D4",
+    "accentHover": "#106EBE",
+    "primaryBackground": "#1C1C1C",
+    "secondaryBackground": "#242424",
+    "cardBackground": "#2E2E2E",
+    "cardHoverBackground": "#383838",
+    "textPrimary": "#FFFFFF",
+    "textSecondary": "#A0A0A0"
+  },
+  "geometry": {
+    "cardRadiusPx": 10,
+    "buttonRadiusPx": 8
+  },
+  "typography": {
+    "fontFamily": "'Segoe UI Variable', 'Segoe UI', -apple-system, sans-serif"
+  },
+  "background": {
+    "enabled": false,
+    "imageUrl": "",
+    "blurPx": 12,
+    "opacity": 0.3
+  },
+  "toggles": {
+    "hideWhatsNew": true,
+    "hideBottomDownloadBar": false,
+    "compactSidebar": false
+  }
+}

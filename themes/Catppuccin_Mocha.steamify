@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "metadata": {
+    "id": "comm-catppuccin-mocha",
+    "name": "Catppuccin Mocha",
+    "author": "Catppuccin Org",
+    "version": "2.1.0",
+    "createdAt": "2026-11-17T00:00:00Z",
+    "description": "Тёмная пастельная палитра Catppuccin Mocha с лавандовыми акцентами"
+  },
+  "colors": {
+    "accent": "#cba6f7",
+    "accentHover": "#b4befe",
+    "primaryBackground": "#181825",
+    "secondaryBackground": "#1e1e2e",
+    "cardBackground": "#313244",
+    "cardHoverBackground": "#45475a",
+    "textPrimary": "#cdd6f4",
+    "textSecondary": "#a6adc8"
+  },
+  "geometry": {
+    "cardRadiusPx": 12,
+    "buttonRadiusPx": 16
+  },
+  "typography": {
+    "fontFamily": "'Plus Jakarta Sans', sans-serif",
+    "googleFontFamily": "Plus Jakarta Sans"
+  },
+  "background": {
+    "enabled": false,
+    "imageUrl": "",
+    "blurPx": 14,
+    "opacity": 0.35
+  },
+  "toggles": {
+    "hideWhatsNew": true,
+    "hideBottomDownloadBar": false,
+    "compactSidebar": false
+  }
+}

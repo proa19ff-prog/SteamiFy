@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "metadata": {
+    "id": "preset-spotify-dark",
+    "name": "Steamify Dark (Spotify-inspired)",
+    "author": "Steamify Team",
+    "version": "1.0.0",
+    "createdAt": "2026-11-17T00:00:00Z",
+    "description": "Элегантная тёмная тема в стиле Spotify с сочным зелёным акцентом"
+  },
+  "colors": {
+    "accent": "#1DB954",
+    "accentHover": "#1ed760",
+    "primaryBackground": "#121212",
+    "secondaryBackground": "#181818",
+    "cardBackground": "#242424",
+    "cardHoverBackground": "#2a2a2a",
+    "textPrimary": "#FFFFFF",
+    "textSecondary": "#B3B3B3"
+  },
+  "geometry": {
+    "cardRadiusPx": 10,
+    "buttonRadiusPx": 24
+  },
+  "typography": {
+    "fontFamily": "Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+    "googleFontFamily": "Inter"
+  },
+  "background": {
+    "enabled": false,
+    "imageUrl": "",
+    "blurPx": 12,
+    "opacity": 0.35
+  },
+  "toggles": {
+    "hideWhatsNew": true,
+    "hideBottomDownloadBar": false,
+    "compactSidebar": false
+  }
+}

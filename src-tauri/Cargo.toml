@@ -1,0 +1,33 @@
+[package]
+name = "steamify"
+version = "0.1.0"
+description = "Steamify - No-Code Steam Customization Studio"
+authors = ["Steamify Team"]
+edition = "2024"
+rust-version = "1.90"
+
+[lib]
+name = "steamify_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.7.5", features = [] }
+
+[dependencies]
+tauri = { version = "2.12.6", features = [] }
+tauri-plugin-log = "2"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "sync", "time"] }
+tokio-tungstenite = "0.26"
+futures-util = { version = "0.3", default-features = false, features = ["sink", "std"] }
+reqwest = { version = "0.12", default-features = false, features = ["json"] }
+sysinfo = "0.33"
+chrono = { version = "0.4", features = ["serde"] }
+dirs = "6.0"
+uuid = { version = "1.10", features = ["v4", "serde"] }
+log = "0.4"
+rfd = "0.15"
+
+[target.'cfg(windows)'.dependencies]
+winreg = "0.55"

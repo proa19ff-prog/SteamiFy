@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "metadata": {
+    "id": "preset-cyberpunk-neon",
+    "name": "Cyberpunk Neon",
+    "author": "Steamify Team",
+    "version": "1.0.0",
+    "createdAt": "2026-11-17T00:00:00Z",
+    "description": "Яркий неоновый стиль Ночного Города с жёлтыми и неоново-розовыми акцентами"
+  },
+  "colors": {
+    "accent": "#fcee0a",
+    "accentHover": "#fff347",
+    "primaryBackground": "#0d0914",
+    "secondaryBackground": "#161024",
+    "cardBackground": "#221937",
+    "cardHoverBackground": "#31234f",
+    "textPrimary": "#00f0ff",
+    "textSecondary": "#e090df"
+  },
+  "geometry": {
+    "cardRadiusPx": 2,
+    "buttonRadiusPx": 2
+  },
+  "typography": {
+    "fontFamily": "'Space Grotesk', sans-serif",
+    "googleFontFamily": "Space Grotesk"
+  },
+  "background": {
+    "enabled": false,
+    "imageUrl": "",
+    "blurPx": 8,
+    "opacity": 0.5
+  },
+  "toggles": {
+    "hideWhatsNew": false,
+    "hideBottomDownloadBar": false,
+    "compactSidebar": false
+  }
+}

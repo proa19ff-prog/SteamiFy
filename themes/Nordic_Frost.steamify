@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "metadata": {
+    "id": "preset-nordic-frost",
+    "name": "Nordic Frost",
+    "author": "Steamify Team",
+    "version": "1.0.0",
+    "createdAt": "2026-11-17T00:00:00Z",
+    "description": "Холодная нордическая палитра с ледяным голубым акцентом и графитовым фоном"
+  },
+  "colors": {
+    "accent": "#38bdf8",
+    "accentHover": "#7dd3fc",
+    "primaryBackground": "#0b111e",
+    "secondaryBackground": "#111b2b",
+    "cardBackground": "#18263d",
+    "cardHoverBackground": "#223554",
+    "textPrimary": "#f0f6fc",
+    "textSecondary": "#8b949e"
+  },
+  "geometry": {
+    "cardRadiusPx": 12,
+    "buttonRadiusPx": 14
+  },
+  "typography": {
+    "fontFamily": "'Plus Jakarta Sans', sans-serif",
+    "googleFontFamily": "Plus Jakarta Sans"
+  },
+  "background": {
+    "enabled": false,
+    "imageUrl": "",
+    "blurPx": 16,
+    "opacity": 0.4
+  },
+  "toggles": {
+    "hideWhatsNew": false,
+    "hideBottomDownloadBar": false,
+    "compactSidebar": false
+  }
+}

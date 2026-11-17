@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "metadata": {
+    "id": "preset-pure-oled",
+    "name": "Pure OLED",
+    "author": "Steamify Team",
+    "version": "1.0.0",
+    "createdAt": "2026-11-17T00:00:00Z",
+    "description": "Глубокий чёрный цвет #000000 для OLED-экранов с минималистичными акцентами"
+  },
+  "colors": {
+    "accent": "#FFFFFF",
+    "accentHover": "#E0E0E0",
+    "primaryBackground": "#000000",
+    "secondaryBackground": "#0a0a0a",
+    "cardBackground": "#141414",
+    "cardHoverBackground": "#1e1e1e",
+    "textPrimary": "#FFFFFF",
+    "textSecondary": "#888888"
+  },
+  "geometry": {
+    "cardRadiusPx": 6,
+    "buttonRadiusPx": 8
+  },
+  "typography": {
+    "fontFamily": "system-ui, sans-serif"
+  },
+  "background": {
+    "enabled": false,
+    "imageUrl": "",
+    "blurPx": 10,
+    "opacity": 0.3
+  },
+  "toggles": {
+    "hideWhatsNew": true,
+    "hideBottomDownloadBar": true,
+    "compactSidebar": true
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "metadata": {
+    "id": "comm-gruvbox-dark",
+    "name": "Gruvbox Dark Retro",
+    "author": "morhetz",
+    "version": "1.0.0",
+    "createdAt": "2026-11-17T00:00:00Z",
+    "description": "Тёплая палитра Gruvbox с акцентом охры"
+  },
+  "colors": {
+    "accent": "#fabd2f",
+    "accentHover": "#fe8019",
+    "primaryBackground": "#1d2021",
+    "secondaryBackground": "#282828",
+    "cardBackground": "#3c3836",
+    "cardHoverBackground": "#504945",
+    "textPrimary": "#ebdbb2",
+    "textSecondary": "#a89984"
+  },
+  "geometry": {
+    "cardRadiusPx": 6,
+    "buttonRadiusPx": 8
+  },
+  "typography": {
+    "fontFamily": "'Fira Code', monospace",
+    "googleFontFamily": "Fira Code"
+  },
+  "background": {
+    "enabled": false,
+    "imageUrl": "",
+    "blurPx": 8,
+    "opacity": 0.25
+  },
+  "toggles": {
+    "hideWhatsNew": true,
+    "hideBottomDownloadBar": false,
+    "compactSidebar": false
+  }
+}
